@@ -101,7 +101,9 @@ public class BinarySearchTree {
  * output:
  * Enter the number of elements: 5
    Enter the elements: 11 4 20 15 7
-   Preorder Traversal: 11 4 7 20 15 Inorder Traversal: 4 7 11 15 20 Postorder Traversal: 7 4 15 20 11  
+   Preorder Traversal: 11 4 7 20 15 
+   Inorder Traversal: 4 7 11 15 20 
+   Postorder Traversal: 7 4 15 20 11  
  */
 
 /*
@@ -109,6 +111,7 @@ public class BinarySearchTree {
  * I'm surprise how fast it took to finish the entire task I asked. I believe it took less than 2 minutes to
  * came up with the entire codes without any bug. Although this is not a very difficult task, I struggled a little 
  * when I first learned about BST and recursion, and I'm glad it help me to not having to deal with recursion
- * nightmare again. However, I don't like how it includes a class inside another class. My personal
- * preference is two separate every classes into individual files, but this gets the job done too.
+ * nightmare again. However, there's one thing I think it can improve. When asking the user to input values, I
+ * don't think it gives a clear instruction about how should input it (should the user separate each input by comma, 
+ * space, enter, or whatever). It would be great if it could add a sentence that tells user to separate each input by space. 
  */
